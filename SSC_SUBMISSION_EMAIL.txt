@@ -1,0 +1,24 @@
+To: kit.baum@bc.edu
+Subject: New SSC submission: cvcombo 2.0.0
+
+Dear Kit,
+
+Please consider the attached/new submission of cvcombo 2.0.0 for the Statistical Software Components (SSC) archive.
+
+Package name: cvcombo
+Version: 2.0.0
+Title: Control-variable all-combinations robustness test
+Authors: Jiang ZhenYuan (蒋镇源) and Zhang Na (张娜)
+Affiliation: School of Economics, Northwest Normal University
+Support: kangjang504@gmail.com; zhangna@nwnu.edu.cn
+
+cvcombo enumerates all nonempty combinations of user-specified control variables and estimates each specification using a user-supplied method(). It is designed to work with regress, xtreg, logit, probit, reghdfe, and other estimators that accept if/in qualifiers and return _b[mainvar] and _se[mainvar]. Version 2.0 additionally provides a paper-output bundle with specification-curve figures, robustness summaries, and a Word table.
+
+The SSC submission bundle contains cvcombo.ado, cvcombo.sthlp, cvcombo.pkg, stata.toc, README.txt, LICENSE.txt, test_cvcombo.do, and CHANGELOG.md.
+
+Please let me know if any changes are required for SSC formatting or metadata.
+
+Best regards,
+Jiang ZhenYuan (蒋镇源)
+School of Economics, Northwest Normal University
+kangjang504@gmail.com

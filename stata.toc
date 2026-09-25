@@ -1,0 +1,4 @@
+v 3
+d Statistical Software Components
+d
+p cvcombo Control-variable all-combinations robustness test

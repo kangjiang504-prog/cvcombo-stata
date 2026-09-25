@@ -1,0 +1,22 @@
+v 3
+d {bf:CVCOMBO}: Control-variable all-combinations robustness test
+d
+d CVCOMBO enumerates every nonempty combination of user-specified control
+d variables and estimates each specification using a user-supplied
+d estimation method. The package supports method() calls such as regress,
+d xtreg, logit, probit, and reghdfe, provided the estimator accepts if/in
+d qualifiers and returns _b[mainvar] and _se[mainvar].
+d
+d Version: 2.0.0
+d Distribution-Date: 20260926
+d Author: Jiang ZhenYuan (蒋镇源)
+d Author: Zhang Na (张娜)
+d Affiliation: School of Economics, Northwest Normal University
+d Support: kangjang504@gmail.com
+d Support: zhangna@nwnu.edu.cn
+d Requires: Stata 15.1
+d Optional estimator: reghdfe (install separately from SSC)
+d After installation, type {cmd:help cvcombo}
+
+f cvcombo.ado
+f cvcombo.sthlp
